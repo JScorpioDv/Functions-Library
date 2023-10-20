@@ -9,3 +9,11 @@ function generateUUID() {
       return v.toString(16);
     });
 }
+
+/**
+ * NOTE:
+ * Visual Studio Code has a interface for create UUID without externs functions.
+ * This interface is "Crypto" and the method for create UUID is:
+ * 
+ * METHOD = crypto.randomUUID();
+*/
